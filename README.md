@@ -16,7 +16,8 @@ Usage of ssh-tool:
 
 >./ssh-tool -u root -p yourpassword  -h 192.168.0/24 -t 2 -c "ps"
 
-需要指出的是如果你直接引用 "github.com/flynn/go-crypto-ssh" 这个ssh库可能会有问题，因为他的库不支持自定义超时时间，所以我修改了他的库。
+你可以自己编译，也可以下载上面的ssh-tool使用。
+需要指出的是如果你自己编译直接引用 "github.com/flynn/go-crypto-ssh" 这个ssh库可能会有问题，因为他的库不支持自定义超时时间，所以我修改了他的库。
 
 
 
